@@ -12,7 +12,7 @@ namespace Colors
         {
             Console.Write("Enter number of colors:");
             int n = Convert.ToInt16(Console.ReadLine());
-            Console.WriteLine("Enter: 1 for red; 2 for white; 3 for blue.  ");
+            Console.WriteLine("Enter: 1 for red; 2 for blue; 3 for white.  ");
 
             string[] colorsarray = new string[n];
 
